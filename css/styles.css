@@ -85,6 +85,31 @@ input[type="submit"] {
   font-weight: bold;
 }
 
+button {
+  padding: .5em 2em;
+  border: 0;
+  border-bottom: 3px solid;
+  border-radius: 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #fff;
+  background-color: #cc7000;
+  border-color: #cc7000;
+  clear: both;
+  margin: 10px 0px;
+}
+
+button:active {
+  margin-top: 0px;
+  border: 0;
+}
+
+button[disabled=disabled],
+button:disabled {
+  background-color: gray;
+  border-color: darkgray;
+}
+
 input[type="submit"]:hover {
   background-color: #cc7000;
   transition: .5s;
