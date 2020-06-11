@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Helvetica;
-  color: #323232;
   border: none;
 }
 
@@ -15,8 +14,16 @@ body {
   background-position-y: -200px;
 }
 
+ul {
+  list-style-type: none;
+  }
+
 textarea:focus, input:focus{
   outline: none;
+}
+
+.invisivel{
+	display: none;
 }
 
 a {
@@ -70,6 +77,15 @@ input:focus {
 #forgot-pass {
   display: block;
   text-align: right;
+}
+
+.campo-invalido{
+	border: 1px solid red;
+}
+
+#mensagens-erro{
+  margin-top: 20px;
+	color: red;
 }
 
 input[type="submit"] {
