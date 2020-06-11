@@ -80,7 +80,7 @@ input:focus {
 }
 
 .campo-invalido{
-	border: 1px solid red;
+	border-bottom: 1px solid red;
 }
 
 #mensagens-erro{
@@ -124,11 +124,6 @@ button[disabled=disabled],
 button:disabled {
   background-color: gray;
   border-color: darkgray;
-}
-
-input[type="submit"]:hover {
-  background-color: #cc7000;
-  transition: .5s;
 }
 
 /* redes sociais */
