@@ -1,7 +1,7 @@
-Tela de login
+Tela de login/registro e recuperação de senha
 ===============================================
 
-- Implementação de uma tela de login com HTML e CSS
+- Implementação de uma tela de login/registro e recuperação de senha com HTML e CSS
 
 
 ## Autor
